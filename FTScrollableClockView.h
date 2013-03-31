@@ -17,7 +17,7 @@
  
  */
 
-#import "FTView.h"
+#import <UIKit/UIKit.h>
 
 typedef enum {
 	
@@ -45,7 +45,7 @@ typedef enum {
 @end
 
 
-@interface FTScrollableClockView : FTView <UIScrollViewDelegate> {
+@interface FTScrollableClockView : UIView <UIScrollViewDelegate> {
 	
 	UIScrollView *hours;
 	UIScrollView *minutes;
